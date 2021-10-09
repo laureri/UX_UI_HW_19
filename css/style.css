@@ -1,0 +1,128 @@
+header {
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    #ffe9e9,
+    #ffffc8,
+    #fff0dd,
+    #ffe9e9,
+    #ffffff
+  );
+  padding: 0.5%;
+}
+
+.innerBody {
+  background-color: white;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.caption {
+  font-size: 14px;
+}
+
+.aboutMe {
+  height: 50%;
+  background-color: gray;
+}
+
+.leftSide {
+  width: 50%;
+  float: left;
+  text-align: left;
+  background-color: gray;
+}
+
+.bioOfMe {
+  margin-top: 12.5%;
+  margin-left: 5%;
+}
+
+.rightSide {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.picOfMeParent {
+  width: 220px;
+  height: 220px;
+  margin-top: 7.5%;
+  margin-left: 20%;
+  background-color: pink;
+}
+
+.picOfMe {
+  width: 220px;
+  height: 220px;
+  margin-top: 7.5%;
+  padding-left: 15%;
+}
+
+.mySkills {
+  text-align: center;
+}
+
+.skillsPic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.flexContainer {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.flexChild {
+  flex: 1 0 30%;
+  padding: 1%;
+}
+
+.myProjects {
+  text-align: center;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.projectItem {
+  background-color: gray;
+  padding: 3%;
+  margin: 1%;
+}
+
+.projectItem:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 600) {
+  /* flex-direction: row; */
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flexChild {
+    flex: 1 0 100%;
+  }
+}
